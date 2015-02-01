@@ -1,0 +1,22 @@
+{
+  "name": "docjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guamaso/docjs-sandbox"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guamaso/docjs-sandbox/issues"
+  },
+  "homepage": "https://github.com/Guamaso/docjs-sandbox",
+  "devDependencies": {
+    "documentjs": "^0.3.0-pre.0"
+  }
+}
