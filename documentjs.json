@@ -1,12 +1,31 @@
 {
-    "sites": {
-        "docs": {
-            "glob": {
-                "pattern": "./**/*.md",
-                "ignore": "./{node_modules,old,docs}/**/*.*"
+    "versions": {
+        "1.2": {
+            "source": "https://github.com/Guamaso/docjs-sandbox/tree/v1.2",
+            "sites": {
+                "docs": {
+                    "glob": {
+                        "pattern": "./*.{js,md}",
+                        "ignore": "./{node_modules,test,docs}/**/*.*"
+                    },
+                    "parent": "docjs-sandbox"
+                }
             },
-            "parent": "docjs-sanbox",
-            "dest":"./docs"
+            "npmInstall": false
+        },
+        "2.0": {
+            "source": "https://github.com/Guamaso/docjs-sandbox/tree/v2.0",
+            "sites": {
+                "docs": {
+                    "glob": {
+                        "pattern": "./*.{js,md}",
+                        "ignore": "./{node_modules,test,docs}/**/*.*"
+                    },
+                    "parent": "docjs-sandbox"
+                }
+            },
+            "npmInstall": false
         }
     }
+
 }
