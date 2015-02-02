@@ -1,5 +1,5 @@
 /**
-* @module {function} docjs-sanbox/heyo Heyo
+* @module {function} docjs-sandbox/heyo Heyo
 * @parent docjs-sanbox
 * @author Juan Orozco
 *
