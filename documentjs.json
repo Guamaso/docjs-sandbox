@@ -5,7 +5,7 @@
                 "pattern": "./**/*.{js,md}",
                 "ignore": "./{node_modules,old,docs}/**/*.*"
             },
-            "parent": "docjs-sanbox",
+            "parent": "docjs-sandbox",
             "dest":"./docs"
         }
     }
