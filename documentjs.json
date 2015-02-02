@@ -1,20 +1,12 @@
 {
-    "versions": {
-        "1.0": {
-            "source": "https://github.com/Guamaso/docjs-sandbox/tree/1.0",
-            "sites": {
-                "docs": {
-                    "glob": {
-                        "pattern": "./*.md",
-                        "ignore": "./{node_modules,test,docs}/**/*.*"
-                    },
-                    "parent": "docjs-sanbox",
-                    "dest": "./docs"
-                }
+    "sites": {
+        "docs": {
+            "glob": {
+                "pattern": "./**/*.md",
+                "ignore": "./{node_modules,old,docs}/**/*.*"
             },
-            "path":"./test",
-            "npmInstall": false
+            "parent": "docjs-sanbox",
+            "dest":"./docs"
         }
     }
-
 }
